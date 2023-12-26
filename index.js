@@ -154,7 +154,7 @@ newpapers.forEach((newspaper) => {
 });
 
 app.get("/", (req, res) => {
-  res.json("Hello World!");
+    res.json("Welcome to my Climate Change News API");
 });
 
 app.get("/news", (req, res) => {
